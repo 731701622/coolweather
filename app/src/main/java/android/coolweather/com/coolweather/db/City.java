@@ -16,42 +16,42 @@ public class City extends DataSupport
 
     private int provinceId;
 
-    public int getId()
+    public int GetId()
     {
         return id;
     }
 
-    public void setId(int id)
+    public void SetId(int id)
     {
         this.id = id;
     }
 
-    public String getCityName()
+    public String GetCityName()
     {
         return cityName;
     }
 
-    public void setCityName(String cityName)
+    public void SetCityName(String cityName)
     {
         this.cityName = cityName;
     }
 
-    public int getCityCode()
+    public int GetCityCode()
     {
         return cityCode;
     }
 
-    public void setCityCode(int cityCode)
+    public void SetCityCode(int cityCode)
     {
         this.cityCode = cityCode;
     }
 
-    public int getProvinceId()
+    public int GetProvinceId()
     {
         return provinceId;
     }
 
-    public void setProvinceId(int provinceId)
+    public void SetProvinceId(int provinceId)
     {
         this.provinceId = provinceId;
     }
